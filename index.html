@@ -1,16 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>legal-life-navigator</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Life Lens - Transform Complex Legal Contracts Into Visual Stories</title>
+    <meta name="description" content="Legal Life Lens turns overwhelming legal documents into interactive timelines, risk assessments, and multi-perspective analysis. See your contracts from every angle.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <div class="nav-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"></polygon>
+                        </svg>
+                    </div>
+                    <span class="nav-title">Legal Life Lens</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#timeline" class="nav-link">Timeline</a>
+                    <a href="#analysis" class="nav-link">Risk Analysis</a>
+                    <button class="btn btn-outline btn-sm">Try Demo</button>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-  </head>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">
+                <svg class="badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"></polygon>
+                </svg>
+                AI-Powered Legal Analysis
+            </div>
+            
+            <h1 class="hero-title">
+                Transform Complex
+                <br>
+                <span class="title-accent">Legal Contracts</span>
+                <br>
+                Into Visual Stories
+            </h1>
+            
+            <p class="hero-description">
+                Legal Life Lens turns overwhelming legal documents into interactive timelines, 
+                risk assessments, and multi-perspective analysis. See your contracts from every angle.
+            </p>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html> 
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-lg">
+                    Start Your Legal Journey
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12,5 19,12 12,19"></polyline>
+                    </svg>
+                </button>
+                <button class="btn btn-outline btn-lg">Watch Demo</button>
+            </div>
 
+            <!-- Feature Preview Icons -->
+            <div class="feature-preview">
+                <div class="preview-item">
+                    <svg class="preview-icon danger" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    <span>Risk Assessment</span>
+                </div>
+                <div class="preview-item">
+                    <svg class="preview-icon legal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                    <span>Multi-Perspective View</span>
+                </div>
+                <div class="preview-item">
+                    <svg class="preview-icon timeline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12,6 12,12 16,14"></polyline>
+                    </svg>
+                    <span>Timeline Analysis</span>
+                </div>
+                <div class="preview-item">
+                    <svg class="preview-icon coach" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 8V4H8"></path>
+                        <rect width="16" height="12" x="4" y="8" rx="2"></rect>
+                        <path d="M2 14h2"></path>
+                        <path d="M20 14h2"></path>
+                        <path d="M15 13v2"></path>
+                        <path d="M9 13v2"></path>
+                    </svg>
+                    <span>AI Negotiation Coach</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-description">
+                    Every tool you need to understand, analyze, and optimize your legal contracts
+                </p>
+            </div>
+
+            <div class="features-grid" id="featuresGrid">
+                <!-- Features will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Transform Your Contracts?</h2>
+                <p class="cta-description">
+                    Join thousands who've already simplified their legal life with our AI-powered platform
+                </p>
+                <button class="btn btn-primary btn-lg">
+                    Get Started Now
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12,5 19,12 12,19"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"></polygon>
+                        </svg>
+                    </div>
+                    <span class="footer-title">Legal Life Lens</span>
+                </div>
+                <p class="footer-text">
+                    © 2024 Legal Life Lens. Transform your legal future.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
