@@ -24,7 +24,7 @@
                     <a href="#features" class="nav-link">Features</a>
                     <a href="#timeline" class="nav-link">Timeline</a>
                     <a href="#analysis" class="nav-link">Risk Analysis</a>
-                    <button class="btn btn-outline btn-sm">Try Demo</button>
+                    <button class="btn btn-outline btn-sm" onclick="showDemo()">Demo</button>
                 </div>
             </div>
         </div>
@@ -54,14 +54,14 @@
             </p>
 
             <div class="hero-buttons">
-                <button class="btn btn-primary btn-lg">
+                <button class="btn btn-primary btn-lg" onclick="showFeatures()">
                     Start Your Legal Journey
                     <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <line x1="5" y1="12" x2="19" y2="12"></line>
                         <polyline points="12,5 19,12 12,19"></polyline>
                     </svg>
                 </button>
-                <button class="btn btn-outline btn-lg">Watch Demo</button>
+                <button class="btn btn-outline btn-lg" onclick="showDemo()">Watch Demo</button>
             </div>
 
             <!-- Feature Preview Icons -->
@@ -117,6 +117,16 @@
         </div>
     </section>
 
+    <!-- Feature Modals -->
+    <div id="featureModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody">
+                <!-- Dynamic content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
     <!-- CTA Section -->
     <section class="cta">
         <div class="container">
@@ -125,7 +135,7 @@
                 <p class="cta-description">
                     Join thousands who've already simplified their legal life with our AI-powered platform
                 </p>
-                <button class="btn btn-primary btn-lg">
+                <button class="btn btn-primary btn-lg" onclick="showFeatures()">
                     Get Started Now
                     <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <line x1="5" y1="12" x2="19" y2="12"></line>
